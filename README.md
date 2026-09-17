@@ -149,5 +149,3 @@ Test Suites:
 3. **Fire-and-Forget Redirects**: Clicks are registered asynchronously (`setImmediate`) to ensure redirect responses are returned in under 5ms without waiting on database write latency.
 4. **Honest Metrics Only**: Unlike generic SaaS templates that display fake click-through spikes or fabricated customer intent metrics, Nexvia only renders verified, real-world data from the MongoDB aggregation pipeline.
 # Nexvia
-# Nexvia
-# Nexvia
