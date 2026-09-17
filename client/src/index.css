@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-nexvia-cream text-nexvia-charcoal font-sans antialiased selection:bg-nexvia-amber selection:text-nexvia-charcoal min-h-screen;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply tracking-tight font-bold text-nexvia-charcoal;
+  }
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F5F1E7;
+}
+::-webkit-scrollbar-thumb {
+  background: #DDD7C8;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #F4B33E;
+}
